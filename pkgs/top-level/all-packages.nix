@@ -1595,6 +1595,8 @@ with pkgs;
 
   bisq-desktop = callPackage ../applications/blockchains/bisq-desktop { };
 
+  bibliogram = callPackage ../servers/bibliogram {  };
+
   bic = callPackage ../development/interpreters/bic { };
 
   binance = callPackage ../applications/misc/binance {
